@@ -37,8 +37,6 @@ class _WebViewAppState extends State<WebViewApp> {
         ),
       );
     }else{
-      print("hellopp");
-      print(result);
       return FittedBox(
         fit: BoxFit.fill,
         child: Image.asset("image/offline.jpg"),
